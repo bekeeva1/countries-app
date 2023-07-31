@@ -45,6 +45,8 @@ const Sidebar = () => {
                 .catch(err => console.log(err))
         }, [searchValue])
 
+
+
         return (
             <div className='bg-slate-800 px-6 py-4 flex justify-between'>
                 <div className='text-slate-400 space-x-4'>
@@ -82,6 +84,9 @@ const Sidebar = () => {
                             </div>
                         </div>
                     )}
+                </div>
+                <div>
+                    <h1>ccccjcjckicjkjkk</h1>
                 </div>
             </div>
         )
